@@ -3,45 +3,106 @@ body {
     margin: 0 auto;
     margin-top: 35px;
     color: #000;
+    background-image: url("../images/background.jpg");
+    font-family: Arial;
 }
 .header {
     text-align: center;
     height: 50px;
-    border: 1px solid #000;
+    border: 10px solid #000;
+    border-radius: 7px;
+    background: rgba(255,255,255,0.7);
+    opacity: 0.8;
+    margin-bottom: 10px;
 }
 h1 {
     font-weight: bold;
+    overflow: visible;
+    font-family: 'Rock Salt', cursive;
+    color: #ff99c3;
+    text-shadow: 4px 4px #c45073;
+    font-size: 44px;
+    white-space: nowrap;
 }
 .content{
-    height: 500px;
-    border: 1px solid #000;
+    height: 650px;
+    border: 7px solid #000;
+    border-radius: 7px;
+    background: rgba(255,255,255,0.85);
+    opacity: 0.9;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 30px;
 }
-#start {
+#start, #startOver {
     display: block;
     margin: 0 auto;
+    padding: 3px;
     margin-top: 200px;
     width: 30%;
     height: 50px;
+    border: 2px solid;
     border-radius: 5px;
+    font-size: 35px;
 }
 #timer {
     text-align: center;
-    padding: 10px;
+    margin: 30px;
+    font-family: Arial;
+    font-size: 20px;
 }
 #question {
     text-align: center;
-    padding: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 20px;
+    color: #014400;
 }
-#choices {
+#choices button {
     display: block;
     margin: 0 auto;
-    width: 200px;
+    width: 400px;
     height: 50px;
     border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 20px;
+}
+#choices button:hover {
+    font-weight: bold;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #014400;
+}
+.answerFeedback {
+    font-family: Arial;
+    font-size: 25px;
+}
+.answer{
+    font-family: 'Rock Salt', cursive;
+    color: #ff99c3;
+    text-shadow: 2px 2px #c45073;
 }
 .correctAnswer {
     color: #ff0;
 }
 .wrongAnswer {
     color: #f00;
+}
+#imageFeedback {
+    height: 100px;
+    width: auto;
+    margin: 0 auto;
+    opacity: 1.0;
+}
+#feedback {
+    text-align: center;
+    margin: 30px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+
+}
+#imgFeedback {
+    opacity: 1.0;
 }
